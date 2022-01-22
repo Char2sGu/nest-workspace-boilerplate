@@ -1,3 +1,5 @@
+import { config } from 'dotenv';
+
 export default async () => {
-  return;
+  config();
 };
