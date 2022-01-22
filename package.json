@@ -16,7 +16,7 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
-    "lint": "eslint \"**/*.ts\" --fix",
+    "lint": "eslint \"**/*.ts\" --cache --fix",
     "test": "jest --config ./jest.config.unit.js",
     "test:watch": "jest --watch --config ./jest.config.unit.js",
     "test:cov": "jest --coverage --config ./jest.config.unit.js",
