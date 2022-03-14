@@ -17,9 +17,8 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {}
   },
-  "ts-node": {
-    "files": true
-  }
+  "ts-node": { "files": true }
 }
